@@ -1,0 +1,164 @@
+*{
+    margin: 0 auto;
+}
+body{
+    background-color: limegreen;
+}
+section.empty-content{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    margin: 70px auto;
+    border-radius: 10px;
+}
+img.evernote-icon{
+    width: 60px;
+    height: 60px;
+    border: none;
+    margin: 40px 170px;
+}
+
+p.header{
+    font-weight: 1000;
+    font-size: 39px;
+    margin: -55px 116px;
+}
+
+p.under-header{
+    margin: 65px 82px;
+}
+
+div.second-content{
+    position: relative;
+}
+input.log-google{
+    padding: 5px;
+    width: 230px;
+    margin: 0px 70px;
+}
+
+img.google-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 4px -284px;
+    border-radius: 50%;
+}
+
+p.text-google{
+    margin: -23px 125px;
+}
+
+input.log-apple{
+    padding: 5px;
+    width: 230px;
+    margin: 32px 70px;
+}
+
+img.apple-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 37px -284px;
+    border-radius: 50%;
+}
+
+p.text-apple{
+    margin: -55px 125px;
+}
+ 
+div.left-or{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: 1px 68px;
+}
+
+div.right-or{
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-bottom: 1px solid gray;
+    margin: -102.25px 212px;
+}
+
+p.between{
+    color: gray;
+    position: absolute;
+    margin: 92px 118px;
+}
+
+div.third-content{
+    position: relative;
+}
+input.login{
+    position: absolute;
+    padding: 5px;
+    width: 230px;
+    margin: 130px 69px;
+}
+
+button.click{
+    position: absolute;
+    padding: 10px;
+    width: 245px;
+    margin: 170px 68px;
+    background-color: green;
+    border-radius: 5px;
+}
+
+p.internal{
+    color: white;
+}
+
+div.fourth-content{
+    position: relative;
+}
+input.check-box{
+    position: absolute;
+    margin: 244px 95px;
+}
+
+p.remember{
+    position: absolute;
+    margin: 243px 114px;
+}
+
+p.account{
+    position: absolute;
+    margin: 298px 123px;
+}
+
+a.create{
+    text-decoration: none;
+    position: absolute;
+    color: green;
+    margin: 330px 145px;
+    font-weight: 700;
+}
+section.app{
+    width: 1200px;
+}
+@media(max-width : 1199.98px){
+    section.app{
+        width: 992px;
+    }
+}
+@media(max-width : 991.98px){
+    section.app{
+        width: 768px;
+    }
+}
+@media(max-width : 767.98px){
+    section.app{
+        width: 576px;
+    }
+}
+@media(max-width : 575.98px){
+    section.app{
+        padding: 0 15px;
+        width: calc(100% - 30px);
+    }
+}
